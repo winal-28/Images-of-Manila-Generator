@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, blue, red);
+}
+
+h1 {
+  color: yellow;
+  padding: 2%;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.185);
+  font-family: "Kaushan Script", sans-serif;
+  font-weight: lighter;
+  font-size: 2.2rem;
+}
+
+.image-holder {
+  margin: 2%;
+  min-width: 20vw;
+  height: 50vh;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0.884),
+    #ffffff94
+  );
+  display: flex;
+  align-items: center;
+  border: solid 5px yellow;
+  justify-content: center;
+}
+
+.image-of-manila {
+  height: 100%;
+}
+
+.getImages {
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1% 2%;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.185);
+}
+
+.getImages:hover {
+  background: yellow;
+  box-shadow: 0px 0px 10px yellow;
+}
